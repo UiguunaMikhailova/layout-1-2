@@ -1,0 +1,55 @@
+.dsplnone {
+  display: none;
+}
+
+.popup__progress {
+  cursor: pointer;
+}
+
+.popup__checkbox-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.popup__checkbox-container-less-text {
+  align-items: center;
+}
+
+.popup__checkbox {
+  opacity: 0;
+}
+
+.popup__checkbox-custom {
+  min-width: 28px;
+  min-height: 28px;
+  margin-right: 15px;
+  border: 1px solid #2061e6;
+  border-radius: 3px;
+}
+
+.popup__checkbox:checked + .popup__checkbox-custom {
+  background-color: #2061e6;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAbklEQVRIie2SMQ6AIAxFuYREjwjHhcHjPAcZCGkaxRod+tbS1/TTEBznDkAE0pvyykm2li9AafIdWF3+YzmQgKjU+2up2lupOWuNj+RNMK6+KbW5zKUh5h8qRDEfy8VN7E9xGGIv74ZEs1icTzgAJ5w0Gqu97rMAAAAASUVORK5CYII=");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.popup__btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.popup__close {
+  border-color: #EAEAEA;
+}
+
+@media (max-width: 360px) {
+  .popup__checkbox-gender-pseudo-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .popup__checkbox-gender-pseudo-item {
+    width: 143px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
